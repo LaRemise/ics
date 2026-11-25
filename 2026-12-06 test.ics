@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:-//Infomaniak Network//Workspace-pim 6.0.28
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+X-LIC-LOCATION:Europe/Paris
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:20261025T010000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:20270328T010000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20261121T093941Z
+SUMMARY:Globus le Clown
+LOCATION:17\, route de Mouzens 81470 Aguts
+TRANSP:OPAQUE
+DTSTART;TZID=Europe/Paris:20261206T150000
+DTEND;TZID=Europe/Paris:20261206T163000
+X-INFOMANIAK-ATTACH;VALUE=URI;FMTTYPE=image/jpeg;FILENAME=20261206-AFFICHE 
+ GLOBUS.jpg:https://kdrive.infomaniak.com/app/share/1924883/25c96f91-f6e9-4
+ e19-b24c-ba79fe293219
+DESCRIPTION:Ne manque pas l'arrivée de Globus le clown. Et sois à l'heure
+ \, sinon il s'énerve. Normal il vient d'une autre planète\, celle des co
+ ntes et des pourquoi. \n\nC’est une superbe occasion de fêter le 1er an
+ niversaire de notre café associatif.\n\nLa participation est libre mais n
+ écessaire. La réservation est possible mais non obligatoire.\n\nProposez
+  ou demandez un co-voiturage\, le climat et La Remise\, vous en remercie.\
+ n\n/*----------------------------------------*/\nMerci de ne pas modifier 
+ cette partie.\n\nPièce jointe:\n - 20261206-AFFICHE GLOBUS.jpg : https://
+ kdrive.infomaniak.com/app/share/1924883/25c96f91-f6e9-4e19-b24c-ba79fe2932
+ 19\n\n/*----------------------------------------*/\n
+SEQUENCE:3
+LAST-MODIFIED:20261121T094010Z
+UID:7acab962-963a-4899-9ccc-a2b4914545b8
+END:VEVENT
+END:VCALENDAR
